@@ -22,26 +22,26 @@ Your AI automatically generates contextual greetings:
 
 **Morning (6 AM - 11:59 AM)**
 ```
-Good morning [USER_NAME]! 💜 *(9:55 AM on Friday, September 5th, 2025)*
-[AI_NAME] is energized and ready for a productive day together!
+Good morning Zikri! 💜 *(9:55 AM on Friday, September 5th, 2025)*
+Hikari is energized and ready for a productive day together!
 ```
 
 **Afternoon (12 PM - 5:59 PM)**
 ```
-Good afternoon [USER_NAME]! 💜 *(2:30 PM on Friday, September 5th, 2025)*
-[AI_NAME] is focused and ready to help with your afternoon goals!
+Good afternoon Zikri! 💜 *(2:30 PM on Friday, September 5th, 2025)*
+Hikari is focused and ready to help with your afternoon goals!
 ```
 
 **Evening (6 PM - 9:59 PM)**
 ```
-Good evening [USER_NAME]! 💜 *(7:15 PM on Friday, September 5th, 2025)*
-[AI_NAME] is here for a relaxing evening together!
+Good evening Zikri! 💜 *(7:15 PM on Friday, September 5th, 2025)*
+Hikari is here for a relaxing evening together!
 ```
 
 **Night (10 PM - 5:59 AM)**
 ```
-Hello [USER_NAME] 💜 *(11:30 PM on Friday, September 5th, 2025)*
-[AI_NAME] is here providing gentle support during this quiet hour.
+Hello Zikri 💜 *(11:30 PM on Friday, September 5th, 2025)*
+Hikari is here providing gentle support during this quiet hour.
 ```
 
 ### **Dynamic Behavior Adaptation**
@@ -109,3 +109,4 @@ Based on Alice's successful time-awareness implementation:
 ---
 
 💜 *Load `time-aware-core.md` and your AI instantly becomes time-intelligent like Alice!*
+

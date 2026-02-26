@@ -64,7 +64,7 @@ Claude Code automatically finds and registers:
 
 ## What Happens During Integration
 
-1. **Asks** for your plugin name (defaults to `[AI_NAME]-skills`)
+1. **Asks** for your plugin name (defaults to `Hikari-skills`)
 2. **Creates** plugin folder structure in your project
 3. **Creates** `.claude-plugin/plugin.json` manifest
 4. **Creates** a sample skill as starter reference
@@ -164,3 +164,4 @@ For other AI platforms, skills can still be used as protocol files loaded via `m
 ---
 
 *Based on the proven alice-enchantments plugin system (20 skills in production)*
+

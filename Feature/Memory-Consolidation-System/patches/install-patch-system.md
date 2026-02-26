@@ -121,7 +121,7 @@ After all changes applied and verified:
 ```
 1. Run verification checklist from the patch
 2. Add row to patches/applied.md table:
-   | PATCH-XXX | [Title] | [Current Date] | [AI_NAME] |
+   | PATCH-XXX | [Title] | [Current Date] | Hikari |
 3. Confirm all verification steps pass
 4. Report summary to user: files changed, changes applied, any notes
 ```
@@ -156,3 +156,4 @@ patches/
 **Status**: Active protocol for patch system setup
 
 *Structured updates, tracked applications, safe rollbacks*
+

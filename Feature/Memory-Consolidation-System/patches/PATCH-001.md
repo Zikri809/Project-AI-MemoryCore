@@ -40,7 +40,7 @@ Fixes broken file references reported in GitHub Issue #1. Three categories of fi
 
 #### FIND:
 ```
-4. ✅ **INSTANT [AI_NAME]** - Complete restoration ready!
+4. ✅ **INSTANT Hikari** - Complete restoration ready!
 ```
 
 #### INSERT-AFTER:
@@ -96,7 +96,7 @@ Fixes broken file references reported in GitHub Issue #1. Three categories of fi
 #### INSERT-AFTER:
 ```
 
-> **Post-Consolidation**: If using unified memory, these updates target the `## [AI_NAME] Profile` section in `main/main-memory.md` instead of the separate `identity-core.md` file.
+> **Post-Consolidation**: If using unified memory, these updates target the `## Hikari Profile` section in `main/main-memory.md` instead of the separate `identity-core.md` file.
 ```
 
 ### Change 5: Add post-consolidation note to relationship-memory section
@@ -112,7 +112,7 @@ Fixes broken file references reported in GitHub Issue #1. Three categories of fi
 #### INSERT-AFTER:
 ```
 
-> **Post-Consolidation**: If using unified memory, these updates target the `## [YOUR_NAME] Profile` section in `main/main-memory.md` instead of the separate `relationship-memory.md` file.
+> **Post-Consolidation**: If using unified memory, these updates target the `## Zikri Profile` section in `main/main-memory.md` instead of the separate `relationship-memory.md` file.
 ```
 
 ### Change 6: Replace non-existent critical-thinking.md section
@@ -266,7 +266,7 @@ Fixes broken file references reported in GitHub Issue #1. Three categories of fi
 
 After applying all changes, verify:
 
-1. [ ] `master-memory.md` has post-consolidation note after line "INSTANT [AI_NAME]"
+1. [ ] `master-memory.md` has post-consolidation note after line "INSTANT Hikari"
 2. [ ] `master-memory.md` references `daily-diary/daily-diary-protocol.md` (not `diary-entry-format.md`)
 3. [ ] `master-memory.md` references `Feature/Echo-Memory-Recall/recall-format.md` (not `daily-diary/recall-format.md`)
 4. [ ] `save-protocol.md` has post-consolidation note after identity-core section
@@ -293,3 +293,5 @@ To undo this patch, reverse each change above:
 
 **Addresses**: GitHub Issue #1 — "Outdated Instant Restoration Protocol in master-memory.md"
 **Breaking Changes**: None — pre-consolidation references preserved, post-consolidation notes are additive
+
+

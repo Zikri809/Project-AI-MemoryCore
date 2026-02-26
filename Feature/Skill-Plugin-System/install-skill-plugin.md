@@ -13,7 +13,7 @@ Executed when "Load skill-plugin" command is used — creates a complete plugin 
 ## 6-Step Execution Process
 
 ### Step 1: Gather Plugin Information
-- [ ] Ask user for plugin name (suggest `[AI_NAME]-skills` as default)
+- [ ] Ask user for plugin name (suggest `Hikari-skills` as default)
 - [ ] Ask user for a brief description of what their skills will do
 - [ ] Get author name and email (or use defaults)
 - [ ] Execute `date` command to get current timestamp
@@ -158,3 +158,4 @@ Reference `plugins/[plugin-name]/skill-format.md` for the standard structure.
 **Status**: Active protocol for plugin system setup
 
 *Drop a folder, write a SKILL.md, and your AI learns a new ability*
+
