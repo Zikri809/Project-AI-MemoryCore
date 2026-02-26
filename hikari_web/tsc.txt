@@ -1,0 +1,30 @@
+﻿app/api/chat/_tools/tools.ts(9,13): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Type 'ZodObject<{ directory: ZodOptional<ZodString>; }, $strip>' is not assignable to type 'FlexibleSchema<never>'.
+      Type 'ZodObject<{ directory: ZodOptional<ZodString>; }, $strip>' is missing the following properties from type 'ZodType<never, ZodTypeDef, any>': _type, _parse, _getType, _getOrReturnCtx, and 7 more.
+        Type '({ directory }: { directory?: string | undefined; }) => Promise<{ success: boolean; files: { filepath: string; last_modified: string | null; }[]; error?: undefined; } | { success: boolean; error: string; files?: undefined; }>' is not assignable to type 'undefined'.
+app/api/chat/_tools/tools.ts(13,13): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Type 'ZodObject<{ directory: ZodOptional<ZodString>; }, $strip>' is not assignable to type 'FlexibleSchema<never>'.
+      Type 'ZodObject<{ directory: ZodOptional<ZodString>; }, $strip>' is missing the following properties from type 'ZodType<never, ZodTypeDef, any>': _type, _parse, _getType, _getOrReturnCtx, and 7 more.
+        Type '({ directory }: { directory?: string | undefined; }) => Promise<{ success: boolean; files: { filepath: string; last_modified: string | null; }[]; error?: undefined; } | { success: boolean; error: string; files?: undefined; }>' is not assignable to type 'undefined'.
+app/api/chat/_tools/tools.ts(26,13): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Type 'ZodObject<{ filepath: ZodString; }, $strip>' is not assignable to type 'FlexibleSchema<never>'.
+      Type 'ZodObject<{ filepath: ZodString; }, $strip>' is missing the following properties from type 'ZodType<never, ZodTypeDef, any>': _type, _parse, _getType, _getOrReturnCtx, and 7 more.
+        Type '({ filepath }: { filepath: string; }) => Promise<{ success: boolean; filepath: string; content: string; last_modified: string | null; message?: undefined; error?: undefined; } | { success: boolean; message: string; filepath?: undefined; content?: undefined; last_modified?: undefined; error?: undefined; } | { ...; }>' is not assignable to type 'undefined'.
+app/api/chat/_tools/tools.ts(30,13): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Type 'ZodObject<{ filepath: ZodString; }, $strip>' is not assignable to type 'FlexibleSchema<never>'.
+      Type 'ZodObject<{ filepath: ZodString; }, $strip>' is missing the following properties from type 'ZodType<never, ZodTypeDef, any>': _type, _parse, _getType, _getOrReturnCtx, and 7 more.
+        Type '({ filepath }: { filepath: string; }) => Promise<{ success: boolean; filepath: string; content: string; last_modified: string | null; message?: undefined; error?: undefined; } | { success: boolean; message: string; filepath?: undefined; content?: undefined; last_modified?: undefined; error?: undefined; } | { ...; }>' is not assignable to type 'undefined'.
+app/api/chat/_tools/tools.ts(46,13): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Type 'ZodObject<{ files: ZodArray<ZodObject<{ filepath: ZodString; content: ZodString; }, $strip>>; }, $strip>' is not assignable to type 'FlexibleSchema<never>'.
+      Type 'ZodObject<{ files: ZodArray<ZodObject<{ filepath: ZodString; content: ZodString; }, $strip>>; }, $strip>' is missing the following properties from type 'ZodType<never, ZodTypeDef, any>': _type, _parse, _getType, _getOrReturnCtx, and 7 more.
+        Type '({ files }: { files: { filepath: string; content: string; }[]; }) => Promise<{ success: boolean; message: string; error?: undefined; } | { success: boolean; error: string; message?: undefined; }>' is not assignable to type 'undefined'.
+app/api/chat/_tools/tools.ts(64,13): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Type 'ZodObject<{ files: ZodArray<ZodObject<{ filepath: ZodString; content: ZodString; }, $strip>>; }, $strip>' is not assignable to type 'FlexibleSchema<never>'.
+      Type 'ZodObject<{ files: ZodArray<ZodObject<{ filepath: ZodString; content: ZodString; }, $strip>>; }, $strip>' is missing the following properties from type 'ZodType<never, ZodTypeDef, any>': _type, _parse, _getType, _getOrReturnCtx, and 7 more.
+        Type '({ files }: { files: { filepath: string; content: string; }[]; }) => Promise<{ success: boolean; message: string; error?: undefined; } | { success: boolean; error: string; message?: undefined; }>' is not assignable to type 'undefined'.
